@@ -1,0 +1,6 @@
+public class LongExample {
+    public static void main(String[] args) {
+        long bigNumber = 12345678901L; // The L suffix indicates a long literal
+        System.out.println(bigNumber);
+    }
+}
