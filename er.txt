@@ -1,6 +1,3 @@
 run
 
 
-come
-go
-went
