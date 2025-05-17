@@ -1,0 +1,17 @@
+ // ==UserScript==
+// @name     close
+// @version  2
+// @grant    none
+// ==UserScript==
+// @name Dig-dug(close)
+// @include https://dig-dug-eu.aka.amazon.com/*
+// @include https://dig-dug-na.aka.amazon.com/*
+// @include https://dig-dug-nrt.aka.amazon.com/*
+// @grant none
+// ==/UserScript==
+(function() {
+  if (document.body.innerText.includes("Bin Interaction")) {
+    return;
+  }
+  window.close();
+})();
